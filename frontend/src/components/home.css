@@ -1,0 +1,129 @@
+/* Ensure the body and html take up the full height */
+
+
+/* Root container for the app */
+.container2 {
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(to right, #f0f4ff, #faf5ff);
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure it spans the full width */
+  }
+  
+  .navbarContent {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ca681d;
+  }
+  
+  .navButtons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navButton {
+    padding: 0.5rem 1rem;
+    color: #4b5563;
+    transition: color 0.3s;
+  }
+  
+  .navButton:hover {
+    color: #ca681d;
+  }
+  
+  /* Main Content */
+  .mainContent {
+    flex-grow: 1; /* Allow it to grow and fill the remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure it spans the full width */
+  }
+  
+  .contentWrapper {
+    max-width: 42rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ca681d;
+    margin-bottom: 1.5rem;
+  }
+  
+  .description {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #4b5563;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonPrimary {
+    background-color: #ca681d;
+  }
+  
+  .buttonPrimary:hover {
+    background-color: #ca681d;
+  }
+  
+  .buttonSecondary {
+    background-color: #ca681d;
+  }
+  
+  .buttonSecondary:hover {
+    background-color: #ca681d;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%; /* Ensure it spans the full width */
+  }
+  
+  .footerLink {
+    color: #60a5fa;
+    transition: color 0.3s;
+  }
+  
+  .footerLink:hover {
+    color: #93c5fd;
+  }
+  
